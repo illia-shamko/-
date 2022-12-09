@@ -1,10 +1,10 @@
-w1 = input("Введіть перше слово: ")
-w2 = input("Введіть друге слово: ")
+word1 = input("Введіть перше слово: ")
+word2 = input("Введіть друге слово: ")
 
 try:
     file = open("text.txt",encoding='utf8')
     text = file.read()
 
-    result = text.replace(w1, w2)
+    result = text.replace(word1, word22)
     print(result)
 
